@@ -1,10 +1,13 @@
-import React from 'react'
 import Lenis from "lenis";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useEffect } from "react";
+
+
 import Hero from "./components/Hero.jsx";
 import About from "./components/About.jsx";
 import Navbar from "./components/Navbar.jsx";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
+import Features from "./components/Features.jsx";
+
 
 const App = () => {
 
@@ -33,6 +36,7 @@ const App = () => {
             <Navbar />
             <Hero />
             <About />
+            <Features />
         </main>
     )
 }
