@@ -1,16 +1,63 @@
-# React + Vite
+# Zentry Inspired React Experience
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is my journey into professional frontend web development through building a cinematic, animation-heavy modern website inspired by Awwwards-style experiences.
 
-Currently, two official plugins are available:
+## Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- React + Vite
+- Tailwind CSS v4
+- GSAP + ScrollTrigger
+- Lenis Smooth Scrolling
+- React Hooks
+- Responsive Design
 
-## React Compiler
+## Project Goal
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The purpose of this project is not just to recreate a UI, but to deeply understand how modern interactive websites are engineered.
 
-## Expanding the ESLint configuration
+Through this project, I am learning:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Component-based architecture with React
+- State management and rendering flow
+- DOM manipulation using refs
+- Scroll-based animations with GSAP
+- Smooth scrolling systems
+- Layered video compositions
+- Advanced Tailwind CSS workflows
+- Performance optimization for animation-heavy interfaces
+- Responsive and cinematic UI design
+
+## Features Implemented
+
+- Fullscreen animated hero section
+- Dynamic video transitions
+- GSAP-powered scroll animations
+- Smooth scrolling with Lenis
+- Interactive navigation bar
+- Custom utility system using Tailwind CSS v4
+- Responsive layouts
+- Animated loading screen
+
+## Current Focus
+
+Right now, I am focusing on:
+- understanding animation architecture
+- improving frontend performance
+- building production-style UI systems
+- learning professional development workflows
+
+## Why This Project Matters
+
+This project represents my transition from learning basic frontend concepts to building polished, production-level interactive web experiences.
+
+Instead of only following tutorials, I am actively breaking down and understanding:
+- why each animation works
+- how rendering behaves internally
+- how React interacts with the browser
+- how modern cinematic websites are structured
+
+## Status
+
+🚧 Work in Progress
+
+More sections, animations, and optimizations will be added as the project evolves.
