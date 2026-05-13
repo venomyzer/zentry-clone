@@ -67,6 +67,22 @@ body {
     hover:after:scale-x-100
     dark:after:bg-white;
   }
+  .privacy-policy-btn {
+    @apply relative ms-10 cursor-pointer
+    font-circular-web text-xs uppercase
+    text-black transition-colors duration-100
+    hover:text-white
+
+    after:absolute after:-bottom-0.5 after:left-0
+    after:h-[2px] after:w-full
+    after:origin-bottom-right after:scale-x-0
+    after:bg-white
+    after:transition-transform after:duration-300
+    after:ease-[cubic-bezier(0.65_0.05_0.36_1)]
+
+    hover:after:origin-bottom-left
+    hover:after:scale-x-100;
+  }
 
   .floating-nav {
     @apply rounded-lg border bg-black;
@@ -153,7 +169,7 @@ body {
   }
 
   .story-img-container {
-    @apply relative h-[90vh] w-full md:h-dvh;
+    @apply relative h-[100vh] w-full md:h-dvh;
 
     filter: url("#flt_tag");
   }
@@ -165,7 +181,7 @@ body {
     md:top-[-10%]
     md:size-4/5;
 
-    clip-path: polygon(4% 0, 83% 21%, 100% 73%, 0% 100%);
+    clip-path: polygon(2% 0, 83% 21%, 100% 73%, 0% 100%);
   }
 
   .story-img-content {
